@@ -1,0 +1,74 @@
+// tablet settings
+
+@media screen and (max-width: 1024px) {
+  .tablet-cta {
+    display: block;
+  }
+  .qr {
+    h3 {
+      strong {
+        display: inline;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page-content {
+    & > .col-md-6 {
+      width: 100%;
+    }
+    h2 {
+      margin: 0 0 25px;
+    }
+  }
+  header {
+    .row {
+      .container {
+        .col-md-6 {
+          float: left;
+          &.logo-bancontact {
+            width: 150px;
+          }
+          &.details {
+            width: calc(100% - 150px);
+          }
+        }
+      }
+    }
+  }
+  .title {
+    padding: 30px 0 35px;
+    h1 {
+      font-size: 2.8rem;
+    }
+  }
+  .container {
+    width: 100%;
+  }
+  .col-md-6 {
+    float: inherit;
+    width: 100%;
+  }
+  .payment-content {
+    padding-left: 0;
+  }
+  .mdl-selectfield.col-md-6 {
+    float: left;
+  }
+  .qr-content {
+    margin-bottom: 40px;
+  }
+  .page-content {
+    & > .col-md-6 {
+      & > .fa {
+        float: left;
+        margin-right: 15px;
+        margin-top: -10px;
+      }
+      & > .fa-credit-card {
+        margin-top: -3px;
+      }
+    }
+  }
+}

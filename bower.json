@@ -1,0 +1,24 @@
+{
+  "name": "bancontact",
+  "authors": [
+    "ttek <ttek@hipay.com>"
+  ],
+  "description": "Payment page",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "material-kit": "^1.1.0"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}

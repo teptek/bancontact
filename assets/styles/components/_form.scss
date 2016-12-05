@@ -1,0 +1,45 @@
+.payment-content {
+  padding-left: 25px;
+  h2 {
+    strong {
+      color: $blue;
+      font-weight: 600;
+    }
+  }
+  .fa {
+    font-size: 3.3rem;
+  }
+}
+
+.payment-form {
+  .label-date {
+    width: 100%;
+  }
+}
+
+.form-group {
+  margin: 25px 0 0;
+  padding-bottom: 0;
+}
+
+.mdl-selectfield.col-md-6 {
+  width: calc(50% - 5px);
+  &:first-child {
+    margin-right: 5px;
+  }
+  &:last-child {
+    margin-left: 5px;
+  }
+}
+
+.btn-confirm {
+  margin-top: 35px;
+  background-color: $blue;
+  .fa {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  &:hover, &:focus {
+    background-color: darken($blue, 10%);
+  }
+}

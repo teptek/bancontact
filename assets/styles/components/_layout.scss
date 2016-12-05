@@ -1,0 +1,125 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  background-color: #f2f2f2;
+  color: $light-grey-txt;
+}
+
+h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
+  color: $black;
+}
+
+h1, .h1 {
+  color: $blue;
+  font-size: 3rem;
+}
+
+h2, .h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h3, .h3 {
+  font-size: 1.6rem;
+}
+
+.row {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
+}
+
+.fa {
+  color: $black;
+}
+
+.col-md-6 {
+  float: left;
+  width: 50%;
+}
+
+input, select, option {
+  outline: medium none;
+  font-weight: 600;
+}
+
+select:-moz-focusring { color: transparent;
+  text-shadow: 0 0 0 #000; }
+
+select, input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.container {
+  width: 720px;
+}
+
+.main {
+  background-color: transparent;
+  margin: 0;
+  .container {
+    padding: 0;
+  }
+}
+
+.page-content {
+  h2 {
+    border-bottom: 1px dashed #cccccc;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+  }
+  & > .col-md-6 {
+    background-color: white;
+    border-bottom: 2px solid $grey;
+    padding: 25px;
+    @include border-radius(6px);
+    width: calc(50% - 10px);
+    &:first-child {
+      margin-right: 10px;
+    }
+    &:last-child {
+      margin-left: 10px;
+    }
+  }
+}
+
+.col-md-6 {
+  padding: 0;
+}
+
+.qr-content, .payment-content {
+  .fa {
+    height: 34px;
+  }
+}
+
+.btn {
+  .fa {
+    color: white;
+    margin-right: 10px;
+    height: auto;
+  }
+}
+
+.or {
+  color: $black;
+  text-align: center;
+  font-weight: 600;
+}

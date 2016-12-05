@@ -1,0 +1,27 @@
+.mobile {
+  background-color: white;
+  .logo-bancontact {
+    text-align: center;
+  }
+  .details {
+    .details-title {
+      text-align: right;
+      padding-right: 5px;
+    }
+    .details-infos {
+      padding-left: 5px;
+    }
+  }
+  .title h1 {
+    font-size: 2.4rem;
+  }
+  .btn {
+    margin: 0 0 15px;
+    width: 100%;
+  }
+  .payment-form {
+    .btn-confirm {
+      margin: 35px 0 0 0;
+    }
+  }
+}

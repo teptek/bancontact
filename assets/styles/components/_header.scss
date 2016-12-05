@@ -1,0 +1,38 @@
+header {
+  .container {
+    padding: 0;
+  }
+  & > .row {
+    & > .container {
+      & > .col-md-6 {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.logo-bancontact {
+  svg {
+    height: 88px;
+    width: 125px;
+  }
+}
+
+.details {
+  ul {
+    display: table;
+    margin: 0;
+    padding: 18px 0;
+    width: 100%;
+  }
+  li {
+    & > div {
+      width: 50%;
+      float: left;
+    }
+  }
+  .details-title {
+    font-weight: 600;
+    color: $black;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "browsersync": "0.0.1-security",
+    "font-awesome": "^4.7.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify": "0.0.14"
+  }
+}

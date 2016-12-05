@@ -1,0 +1,30 @@
+.qr-content {
+  padding-right: 25px;
+  .fa {
+    font-size: 4.6rem;
+  }
+}
+
+.qr {
+  svg {
+    border: 1px dashed #cccccc;
+    border-radius: 10px;
+    height: auto;
+    margin: 15px 0 0;
+    padding: 25px;
+    width: 160px;
+  }
+  h3 {
+   strong {
+     display: none;
+   }
+  }
+}
+
+.tablet-cta {
+  display: none;
+  .btn {
+    margin: 0;
+  }
+}
+
