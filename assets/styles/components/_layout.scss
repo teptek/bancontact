@@ -91,6 +91,7 @@ input[type="number"] {
     padding: 25px;
     @include border-radius(6px);
     width: calc(50% - 10px);
+    min-height: 470px;
     &:first-child {
       margin-right: 10px;
     }

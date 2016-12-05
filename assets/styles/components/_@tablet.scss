@@ -11,11 +11,17 @@
       }
     }
   }
+  .page-content {
+    & > .col-md-6 {
+      min-height: 500px;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
   .page-content {
     & > .col-md-6 {
+      min-height: inherit;
       width: 100%;
     }
     h2 {
@@ -61,14 +67,17 @@
   }
   .page-content {
     & > .col-md-6 {
-      & > .fa {
-        float: left;
-        margin-right: 15px;
-        margin-top: -10px;
+      &:last-child, &:first-child {
+        margin: 0 0 15px;
       }
-      & > .fa-credit-card {
-        margin-top: -3px;
-      }
+    }
+    .fa {
+      float: left;
+      margin-right: 15px;
+      margin-top: -10px;
+    }
+    .fa-credit-card {
+      margin-top: -3px;
     }
   }
 }

@@ -11946,7 +11946,8 @@ input[type="number"] {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   border-radius: 6px;
-  width: calc(50% - 10px); }
+  width: calc(50% - 10px);
+  min-height: 470px; }
   .page-content > .col-md-6:first-child {
     margin-right: 10px; }
   .page-content > .col-md-6:last-child {
@@ -12030,10 +12031,13 @@ input[type="number"] {
   .tablet-cta {
     display: block; }
   .qr h3 strong {
-    display: inline; } }
+    display: inline; }
+  .page-content > .col-md-6 {
+    min-height: 500px; } }
 
 @media screen and (max-width: 768px) {
   .page-content > .col-md-6 {
+    min-height: inherit;
     width: 100%; }
   .page-content h2 {
     margin: 0 0 25px; }
@@ -12058,11 +12062,13 @@ input[type="number"] {
     float: left; }
   .qr-content {
     margin-bottom: 40px; }
-  .page-content > .col-md-6 > .fa {
+  .page-content > .col-md-6:last-child, .page-content > .col-md-6:first-child {
+    margin: 0 0 15px; }
+  .page-content .fa {
     float: left;
     margin-right: 15px;
     margin-top: -10px; }
-  .page-content > .col-md-6 > .fa-credit-card {
+  .page-content .fa-credit-card {
     margin-top: -3px; } }
 
 .mobile {
